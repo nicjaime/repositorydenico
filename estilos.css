@@ -111,6 +111,21 @@ footer i{
     line-height: 40px;
     box-shadow: 0 0 10px white;
 }
+
+.img-iph{
+    background-image: url(IMGG/243708FC-19FD-4F71-A21F-F947FA9BBEFB_1_102_a.jpeg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.img-iph2{
+    background-image: url(IMGG/0828F96B-6BF6-429E-B265-6D4D89546CD3_1_105_c.jpeg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
 .mainnosotros{
     height: calc(100vh - 70px);
     width: 100%;
@@ -124,15 +139,6 @@ footer i{
 }
 
 
-#about{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-}
-dd{
-    font-size: 25px;
-    padding-top: 35%;
-}
 .repair{
     background-image: url(IMGG/pexels-energepiccom-288479.jpg);
     height: calc(100vh - 70px);
@@ -147,8 +153,11 @@ dd{
 }
 h3{
     background-color: black;
-    margin-top: 55%;
+    color: aliceblue;
+    margin-top: 15%;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
     
 }
 #presupuestar{
@@ -161,10 +170,22 @@ h3{
 }
 
 H2{
-    background-color:rgb(251, 249, 249) ;
+    background-color: aliceblue;
     text-align: center;
     text-transform: capitalize;
+    margin :0%;
+    padding: 25px;
 }
+.titulo-nice {
+    background-color: aliceblue;
+    text-align: center;
+}
+.titulo-nice a{
+    color: black;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
 
 .galeria{
     height: auto;
@@ -278,7 +299,11 @@ H2{
         height: 200px;
     }
 }
-
+@media only screen and (max-width:575px){
+.titulo-nice{
+    padding: 30px;
+}
+}
 
 h5{
     color: #fff;
@@ -301,3 +326,11 @@ width: auto;
     font-size: 30px;
     letter-spacing: 10px;
     text-align: left;}
+
+    ::-webkit-scrollbar-track{
+background-color: black;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: aqua;
+    }
