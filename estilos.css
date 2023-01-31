@@ -65,6 +65,31 @@ padding: 10px;
     background-size: cover;
     background-position: center;
 }
+h4{
+    text-align: center;
+    color: aqua;
+}
+.f-dire{
+    background-color: aliceblue;
+    color: black;
+}
+
+.f-enlaces{
+    background-color: black;
+}
+.f-enlaces a{
+    color: #fff;
+    text-decoration: none;
+}
+.f-enlaces ul li{
+    list-style: none;
+}
+.f-enlaces a:hover{
+    color: aqua;
+}
+.f-mapa{
+    background-color: black;
+}
 .barra{
     float: right ;
 
@@ -137,7 +162,6 @@ footer i{
     text-align: center;
     padding: 20px;
 }
-
 
 .repair{
     background-image: url(IMGG/pexels-energepiccom-288479.jpg);
