@@ -4,15 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-header{
-    height: 70px;
-    width: 100;
-    background-color: rgb(251, 249, 249);
-    font-size: 22px;
-    font-family:Arial, Helvetica, sans-serif ;
-    text-transform: capitalize;
-    padding: 20px;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -151,39 +143,26 @@ footer i{
     background-position: center;
     height: 500px;
 }
-.mainnosotros{
-    height: calc(100vh - 70px);
-    width: 100%;
-    background-image: url(./IMGG/F47EB654-8672-4833-83D8-D6D04591F5DC.jpg);
-    background-size: cover;
-    background-position: center;
-    font-size: 30px;
-    float: center;
-    text-align: center;
-    padding: 20px;
-}
 
 .repair{
     background-image: url(./IMGG/pexels-energepiccom-288479.jpg);
-    height: calc(100vh - 70px);
+    height: calc(100vh - 190px);
     width: 100%;
     background-size: cover;
     background-position: center;
-    font-size: 20px;
     float: center;
-    color: #fff;
-    padding: 20px;
 
 }
 h3{
     background-color: black;
     color: aliceblue;
-    margin-top: 15%;
+    margin-top: 0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: capitalize;
     
 }
+
 #presupuestar{
     background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
@@ -330,10 +309,11 @@ H2{
 }
 
 h5{
-    color: #fff;
+    color: #010101;
     padding: 15px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .consulta{
     background-color: black;
@@ -342,6 +322,9 @@ h5{
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.center{
+    text-align: center;
+}
 iframe{
     height: auto;
 width: auto;
@@ -349,7 +332,7 @@ width: auto;
 .redes2{
     font-size: 30px;
     letter-spacing: 10px;
-    text-align: left;}
+    text-align: center;}
 
     ::-webkit-scrollbar-track{
 background-color: black;
