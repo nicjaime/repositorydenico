@@ -1,0 +1,55 @@
+
+.contenedor2{
+    min-height: 600px;
+    width: $ancho;
+    background-color: #010101;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(2,300px);
+}
+.it{
+    border: 2px solid black;
+    background-image: url(img/img1.jpg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+$color1:rgb(24, 67, 94);
+$color2:rgb(33, 76, 99);
+
+@for $i from 1 through 2 {
+    .it#{$i}{
+        background-color: lighten($color1,$i * 15%);
+        background-image: url(IMG2/imgg#{$i}.jpg);
+        //incluye grayscale;
+    }}
+    @for $i from 3 through 4 {
+        .it#{$i}{
+            background-color: lighten($color2,$i * 15%);
+            background-image: url(IMG2/imgg#{$i}.jpg);
+            //incluye grayscale;
+        }}
+
+$numero:1;
+/* mi constante */
+#si{
+    @if $numero == 1{
+        color: black;
+        background-color: aliceblue;
+    }
+
+    @else if $numero == 2 {
+        color: aliceblue;
+        background-color: black;
+    }
+
+    @else if $numero == 3 {
+        color:gray;
+        background-color: aliceblue;
+    }
+    @else {
+        color:antiquewhite;
+        background-color: aqua;
+    }
+}

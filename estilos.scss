@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+//fonts and colours
+
+$font1: "Roboto", sans-serif;
+$colour1: aqua;
+$colour2: aliceblue;
+
+// vars
+$ancho: 100%;
+$alto:10%;
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
+margin:0;
+padding:0;
+box-sizing:border-box;}
 
 html{
     scroll-behavior: smooth;
@@ -12,17 +22,17 @@ html{
     float:left ;
 }
 .logo span{
-    color: aqua;
+    color: $colour1;
 }
 .navbar-brand span{
-    color: aqua;
+    color: $colour1;
 }
 
 .nav-item{
     text-align: center;
 }
 .nav-item :hover{
-    background-color: aqua;
+    background-color: $colour1;
     color:black !important;
 }
 .jumbotron{
@@ -30,7 +40,7 @@ html{
     margin-bottom: 0%;
 }
 .botonera{
-    height: 30px;
+    height: 30%;
     display: grid;
     justify-content: space-between;
 }
@@ -43,15 +53,15 @@ background-color: rgba(5, 247, 247, 0.339);
 padding: 10px;
 }
 .botonera a:hover{
-    color:aliceblue ;
+    color: $colour2;
     background-color: gray;
 }
 .botonera a:active{
-    border : 2px solid aqua
+    border : 2px solid $colour1;
 }
 .fondo{
     height: 100vh;
-    width: 100%;
+    width: $ancho;
     background-color: black;
     background-image: url(./IMGG/EE63E898-19F5-46BA-BD10-958F450C6259_1_105_c.jpeg);
     background-size: cover;
@@ -59,10 +69,10 @@ padding: 10px;
 }
 h4{
     text-align: center;
-    color: aqua;
+    color: $colour1;
 }
 .f-dire{
-    background-color: aliceblue;
+    background-color: $colour2;
     color: black;
 }
 
@@ -77,7 +87,7 @@ h4{
     list-style: none;
 }
 .f-enlaces a:hover{
-    color: aqua;
+    color: $colour1
 }
 .f-mapa{
     background-color: black;
@@ -95,7 +105,7 @@ h4{
     color:black
 }
 .barra a:hover{
-    color: aqua;
+    color: $colour1
 }
 
 footer {
@@ -103,7 +113,7 @@ footer {
     color: #fff;
     text-align: center;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font1;
 
 }
 footer i{
@@ -116,9 +126,9 @@ footer i{
 #pi{color: orange;}
 
 .subir{
-    height: 25px;
-    width: 40px;
-    background-color: aqua;
+    height: 5%;
+    width: 6%;
+    background-color: $colour1;
     color: black;
     position: fixed;
     right: 40px;
@@ -129,25 +139,12 @@ footer i{
     box-shadow: 0 0 10px white;
 }
 
-.img-iph{
-    background-image: url(./IMGG/243708FC-19FD-4F71-A21F-F947FA9BBEFB_1_102_a.jpeg);
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
-.img-iph2{
-    background-image: url(./IMGG/0828F96B-6BF6-429E-B265-6D4D89546CD3_1_105_c.jpeg);
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
+@import"_nosotros.scss";
 
 .repair{
     background-image: url(./IMGG/pexels-energepiccom-288479.jpg);
     height: calc(100vh - 190px);
-    width: 100%;
+    width: $ancho;
     background-size: cover;
     background-position: center;
     float: center;
@@ -155,7 +152,7 @@ footer i{
 }
 h3{
     background-color: black;
-    color: aliceblue;
+    color: $colour2;
     margin-top: 0%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -164,7 +161,7 @@ h3{
 }
 
 #presupuestar{
-    background-color: aqua;
+    background-color: $colour1;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 5px;
@@ -173,26 +170,26 @@ h3{
 }
 
 H2{
-    background-color: aliceblue;
+    background-color: $colour2;
     text-align: center;
     text-transform: capitalize;
     margin :0%;
     padding: 25px;
 }
 .titulo-nice {
-    background-color: aliceblue;
+    background-color: $colour2;
     text-align: center;
 }
 .titulo-nice a{
     color: black;
-    background-color: aqua;
+    background-color: $colour1;
     padding: 10px 20px;
 }
 
 
 .galeria{
     height: auto;
-    width: 100%;
+    width: $ancho;
     background-color:black;
     display: grid;
     grid-template-columns: 1fr;
@@ -308,6 +305,8 @@ H2{
 }
 }
 
+@import"_productos.scss";
+
 h5{
     color: #010101;
     padding: 15px;
@@ -339,5 +338,5 @@ background-color: black;
     }
 
     ::-webkit-scrollbar-thumb{
-        background-color: aqua;
+        background-color: $colour1;
     }

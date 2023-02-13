@@ -1,0 +1,36 @@
+.contenedor{
+    min-height: 400px;
+    width: $ancho;
+    background-color: #010101;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,200px);
+}
+.ite{
+    border: 2px solid black;
+    background-image: url(img/img1.jpg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ite:hover{
+    transition: all 1,2s;
+    background-size: 125%;
+}
+$color1:rgb(35, 35, 87);
+$color2:rgb(12, 11, 11);
+
+@for $i from 1 through 3 {
+    .ite#{$i}{
+        background-color: lighten($color1,$i * 15%);
+        background-image: url(img/img#{$i}.jpg);
+        //incluye grayscale;
+    }
+}
+@for $i from 4 through 6 {
+    .ite#{$i}{
+        background-color: lighten($color2,$i * 10%);
+        background-image: url(img/img#{$i}.jpg); 
+        //incluye grayscale;
+    }
+} 
