@@ -23,12 +23,12 @@ $color2:rgb(12, 11, 11);
 @for $i from 1 through 3 {
     .ite#{$i}{
         background-color: lighten($color1,$i * 15%);
-        background-image: url(IMG/img#{$i}.jpg);
+        background-image: url(./IMG/img#{$i}.jpg);
     }
 }
 @for $i from 4 through 6 {
     .ite#{$i}{
         background-color: lighten($color2,$i * 10%);
-        background-image: url(IMG/img#{$i}.jpg); 
+        background-image: url(./IMG/img#{$i}.jpg); 
     }
 } 
