@@ -1,4 +1,3 @@
-
 .contenedor2{
     min-height: 600px;
     width: $ancho;
@@ -22,13 +21,11 @@ $color2:rgb(33, 76, 99);
     .it#{$i}{
         background-color: lighten($color1,$i * 15%);
         background-image: url(IMG2/imgg#{$i}.jpg);
-        //incluye grayscale;
     }}
     @for $i from 3 through 4 {
         .it#{$i}{
             background-color: lighten($color2,$i * 15%);
             background-image: url(IMG2/imgg#{$i}.jpg);
-            //incluye grayscale;
         }}
 
 $numero:1;

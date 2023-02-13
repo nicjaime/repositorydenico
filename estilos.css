@@ -379,11 +379,13 @@ H2 {
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: center;
+  filter: grayscale(100%);
 }
 
 .ite:hover {
   transition: all 1, 2s;
   background-size: 125%;
+  filter: grayscale(0%);
 }
 
 .ite1 {
@@ -453,6 +455,4 @@ iframe {
 
 ::-webkit-scrollbar-thumb {
   background-color: aqua;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
