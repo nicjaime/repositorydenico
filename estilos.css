@@ -379,43 +379,41 @@ H2 {
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: center;
-  filter: grayscale(100%);
 }
 
 .ite:hover {
   transition: all 1, 2s;
   background-size: 125%;
-  filter: grayscale(0%);
 }
 
 .ite1 {
   background-color: #39398e;
-  background-image: url(./img/img1.jpg);
+  background-image: url(IMG/img1.jpg);
 }
 
 .ite2 {
   background-color: #5757bc;
-  background-image: url(./img/img2.jpg);
+  background-image: url(IMG/img2.jpg);
 }
 
 .ite3 {
   background-color: #8e8ed2;
-  background-image: url(./img/img3.jpg);
+  background-image: url(IMG/img3.jpg);
 }
 
 .ite4 {
   background-color: #766d6d;
-  background-image: url(./img/img4.jpg);
+  background-image: url(IMG/img4.jpg);
 }
 
 .ite5 {
   background-color: #908686;
-  background-image: url(./img/img5.jpg);
+  background-image: url(IMG/img5.jpg);
 }
 
 .ite6 {
   background-color: #a8a1a1;
-  background-image: url(./img/img6.jpg);
+  background-image: url(IMG/img6.jpg);
 }
 
 h5 {
