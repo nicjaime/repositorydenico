@@ -27,7 +27,7 @@
     
 }
 .item:hover{
-    filter: grayscale(0%);
+    @include filter;
     transform: scale(1.03);
 }
 .item1{
