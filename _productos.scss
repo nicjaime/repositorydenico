@@ -7,7 +7,7 @@
 .galeria{
     height: auto;
     width: $ancho;
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.956);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(8,200px);
@@ -127,7 +127,7 @@
     background-color: #010101;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2,200px);
+    grid-template-rows: repeat(2,400px);
 }
 .ite{
     border: 2px solid black;

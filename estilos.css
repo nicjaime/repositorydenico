@@ -384,7 +384,7 @@ H2 {
 .galeria {
   height: auto;
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.956);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 200px);
@@ -505,7 +505,7 @@ H2 {
   background-color: #010101;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(2, 400px);
 }
 
 .ite {
