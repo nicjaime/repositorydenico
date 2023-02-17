@@ -157,13 +157,30 @@ footer i {
   box-shadow: 0 0 10px white;
 }
 
+.ipho {
+  background-image: url(IMGG/pexels-zhang-kaiyv-1237103.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: top;
+  height: 550px;
+  object-fit: contain;
+}
+
+.ipho2 {
+  background-image: url(./IMGG/pexels-karolina-grabowska-5882683.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
 .contenedor2 {
   min-height: 600px;
   width: 100%;
   background-color: #010101;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 500px);
 }
 
 .it {
