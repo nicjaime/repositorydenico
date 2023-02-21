@@ -1,0 +1,73 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-top:100px ;
+    font-weight:100 ;
+}
+.contiene{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.contiene .card{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+}
+.contiene .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12 px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contiene .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.contiene .card h3{
+    font-weight: 600;
+}
+.contiene .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contiene .card a{
+    font-weight: 500;
+    text-decoration: none;
+}
+#deh2{
+    margin-top: 550px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width:740px) and (max-width:1109px){
+    #deh2{
+        margin-top: 1000px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:739px){
+    #deh2{
+        margin-top: 2500px;
+        margin-bottom: 100px;
+    }
+}
