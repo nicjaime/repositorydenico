@@ -57,11 +57,18 @@ body{
     margin-top: 550px;
     margin-bottom: 50px;
 }
+#fotser{
+    margin-top: 100px
+}
+
 
 @media only screen and (min-width:740px) and (max-width:1109px){
     #deh2{
         margin-top: 1000px;
         margin-bottom: 100px;
+    }
+    #fotser{
+        margin-top: 700px;
     }
 }
 
@@ -70,4 +77,8 @@ body{
         margin-top: 2500px;
         margin-bottom: 100px;
     }
+    #fotser{
+        margin-top: 1100px;
+    }
 }
+

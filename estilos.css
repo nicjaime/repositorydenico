@@ -149,8 +149,8 @@ footer i {
   background-color: aqua;
   color: black;
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 20px;
+  bottom: 15px;
   font-size: 30px;
   text-align: center;
   line-height: 40px;
@@ -516,16 +516,26 @@ body {
   margin-bottom: 50px;
 }
 
+#fotser {
+  margin-top: 100px;
+}
+
 @media only screen and (min-width: 740px) and (max-width: 1109px) {
   #deh2 {
     margin-top: 1000px;
     margin-bottom: 100px;
+  }
+  #fotser {
+    margin-top: 700px;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 739px) {
   #deh2 {
     margin-top: 2500px;
     margin-bottom: 100px;
+  }
+  #fotser {
+    margin-top: 1100px;
   }
 }
 h5 {
