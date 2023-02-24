@@ -12,7 +12,7 @@
     color: aqua;
 }
 .ipho{
-    background-image: url(IMGG/pexels-zhang-kaiyv-1237103.jpg);
+    background-image: url(images/IMG/pexels-zhang-kaiyv-1237103.jpg);
     background-color: black;
     background-size:cover;
     background-position:top;
@@ -20,7 +20,7 @@
     object-fit: contain;
 }
 .ipho2{
-    background-image: url(./IMGG/pexels-karolina-grabowska-5882683.jpg);
+    background-image: url(images/IMG/pexels-karolina-grabowska-5882683.jpg);
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@
 }
 .it{
     border: 2px solid black;
-    background-image: url(img/img1.jpg);
+    background-image: url(images/IMG1.jpg);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position:center;
@@ -49,12 +49,12 @@ $color2:rgb(33, 76, 99);
 @for $i from 1 through 2 {
     .it#{$i}{
         background-color: lighten($color1,$i * 15%);
-        background-image: url(IMG2/imgg#{$i}.jpg);
+        background-image: url(images/IMG/imgg#{$i}.jpg);
     }}
     @for $i from 3 through 4 {
         .it#{$i}{
             background-color: lighten($color2,$i * 15%);
-            background-image: url(IMG2/imgg#{$i}.jpg);
+            background-image: url(images/IMG/imgg#{$i}.jpg);
         }}
 
 $numero:1;

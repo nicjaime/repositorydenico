@@ -30,31 +30,31 @@
     transform: scale(1.03);
 }
 .item1{
-    background-image: url(./IMGG/2D12468B-3DF9-4C59-95E6-8D4C38566E8E_1_105_c.jpeg);
+    background-image: url(images/IMG/2D12468B-3DF9-4C59-95E6-8D4C38566E8E_1_105_c.jpeg);
 }
 .item2{
-    background-image: url(./IMGG/5CAF83C7-28D5-4FEB-8CC8-F1C1C10845E9_1_105_c.jpeg);
+    background-image: url(images/IMG/5CAF83C7-28D5-4FEB-8CC8-F1C1C10845E9_1_105_c.jpeg);
     
 }
 .item3{
-    background-image: url(./IMGG/663DCC60-3459-491A-A3EA-9D057ED4B5FE_1_105_c.jpeg);
+    background-image: url(images/IMG/663DCC60-3459-491A-A3EA-9D057ED4B5FE_1_105_c.jpeg);
 }
 .item4{
-    background-image: url(./IMGG/AB046032-4A9B-4B6B-A5E1-736C363C9969_1_105_c.jpeg);
+    background-image: url(images/IMG/AB046032-4A9B-4B6B-A5E1-736C363C9969_1_105_c.jpeg);
 }
 .item5{
-    background-image: url(./IMGG/C9454CE4-9950-4AFC-B823-A70853170A91.jpeg);
+    background-image: url(images/IMG/C9454CE4-9950-4AFC-B823-A70853170A91.jpeg);
     
 }
 .item6{
-    background-image: url(./IMGG/D546984F-33F1-4E1B-BC93-23EF5A29DC42_1_105_c.jpeg);
+    background-image: url(images/IMG/D546984F-33F1-4E1B-BC93-23EF5A29DC42_1_105_c.jpeg);
     
 }
 .item7{
-    background-image: url(./IMGG/D5F86D59-77B9-4A4E-88E1-150BE39592B5_1_105_c.jpeg);
+    background-image: url(images/IMG/D5F86D59-77B9-4A4E-88E1-150BE39592B5_1_105_c.jpeg);
 }
 .item8{
-    background-image: url(./IMGG/81AB79D3-23B2-4CAE-B303-3EBA98263850_1_105_c.jpeg);
+    background-image: url(images/IMG/81AB79D3-23B2-4CAE-B303-3EBA98263850_1_105_c.jpeg);
 }
 @media only screen and (min-width: 480px){
     .galeria{
@@ -148,12 +148,12 @@ $color2:rgb(12, 11, 11);
 @for $i from 1 through 3 {
     .ite#{$i}{
         background-color: lighten($color1,$i * 15%);
-        background-image: url(./IMG/img#{$i}.jpg);
+        background-image: url(images/IMG/img#{$i}.jpg);
     }
 }
 @for $i from 4 through 6 {
     .ite#{$i}{
         background-color: lighten($color2,$i * 10%);
-        background-image: url(./IMG/img#{$i}.jpg); 
+        background-image: url(images/IMG/img#{$i}.jpg); 
     }
 } 

@@ -63,7 +63,7 @@ padding: 10px;
     height: 100vh;
     width: $ancho;
     background-color: black;
-    background-image: url(./IMGG/EE63E898-19F5-46BA-BD10-958F450C6259_1_105_c.jpeg);
+    background-image: url(images/IMG/EE63E898-19F5-46BA-BD10-958F450C6259_1_105_c.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -141,14 +141,8 @@ footer i{
 
 @import"_nosotros.scss";
 
-.repair{
-    background-image: url(./IMGG/pexels-energepiccom-288479.jpg);
-    height: calc(100vh - 190px);
-    width: $ancho;
-    background-size: cover;
-    background-position: center;
-    float: center;
-}
+
+
 h3{
     background-color: black;
     color: $colour2;
@@ -158,14 +152,6 @@ h3{
     text-transform: capitalize;
 }
 
-#presupuestar{
-    background-color: $colour1;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-    float: right;
-}
 
 H2{
     background-color: $colour2;
@@ -205,6 +191,16 @@ h5{
 }
 .center{
     text-align: center;
+
+}
+.logocont{
+    padding: 50px;
+    height: 100vh;
+    width: $ancho;
+    background-color: black;
+    background-image: url(images/IMG/EE63E898-19F5-46BA-BD10-958F450C6259_1_105_c.jpeg);
+    background-size:contain;
+    background-position: center;
 }
 iframe{
 height: auto;
@@ -222,3 +218,5 @@ background-color: black;
     ::-webkit-scrollbar-thumb{
         background-color: $colour1;
     }
+
+@import url(_contactos.scss);
